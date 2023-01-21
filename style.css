@@ -1,0 +1,243 @@
+/*  Import Google font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap");
+
+/*  Reset CSS */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* General Style */
+body {
+	font-family: "Nunito", sans-serif;
+	background-color: #2d4767;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 900;
+}
+
+h3 {
+	text-align: center;
+	color: #4a4340;
+	font-size: 2em;
+}
+
+header img,
+header .about-info,
+header .about-info ul li,
+.tech-stack,
+.projects,
+footer ul li {
+	display: inline-block;
+}
+
+/* Container */
+main {
+	max-width: 970px;
+	margin: 0 auto;
+	padding: 40px 30px;
+	background: rgb(209, 220, 228);
+	background: linear-gradient(
+		0deg,
+		rgba(209, 220, 228, 1) 16%,
+		rgba(255, 255, 255, 1) 47%,
+		rgba(255, 255, 255, 1) 72%,
+		rgba(189, 204, 215, 1) 100%
+	);
+}
+
+/* Header */
+
+header img {
+	width: 300px;
+	height: auto;
+}
+
+header .about-info {
+	margin-left: 30px;
+	padding-top: 30px;
+	vertical-align: top;
+}
+
+header .about-info h1 {
+	color: #2d4767;
+	font-size: 4em;
+	margin: 0;
+}
+
+header .about-info h2 {
+	padding: 10px 0 40px 0;
+}
+
+header .about-info ul li {
+	margin: 30px 5px 0 0;
+	letter-spacing: 2px;
+}
+
+.division {
+	width: 630px;
+	border-bottom: 5px solid #2d4767;
+}
+
+/* Getting to know Section */
+.getting-to-know {
+	background-color: #e6e9eec4;
+	padding: 20px;
+	margin: 30px 0;
+}
+
+.getting-to-know p {
+	text-align: justify;
+	margin: 20px 0;
+	line-height: 1.5;
+}
+
+/* Tech-stack Aside Section */
+.tech-stack {
+	width: 465px;
+	height: 500px;
+	vertical-align: top;
+}
+
+.tech-stack h3 {
+	padding: 20px;
+}
+
+.tech-stack img {
+	width: 75px;
+	height: auto;
+	margin: 5px;
+}
+
+/* Project Section */
+.projects {
+	width: 420px;
+	height: 500px;
+	background: rgb(177, 177, 177);
+	background: linear-gradient(
+		0deg,
+		rgba(177, 177, 177, 1) 8%,
+		rgba(255, 255, 255, 1) 54%,
+		rgba(255, 255, 255, 1) 62%,
+		rgba(255, 255, 255, 1) 74%,
+		rgba(233, 233, 233, 1) 91%
+	);
+	padding: 10px 40px 20px;
+	line-height: 2;
+}
+
+.projects article {
+	margin: 10px 0 20px;
+}
+.projects article h4 {
+	color: rgb(95, 91, 91);
+}
+
+.projects article ul li {
+	margin-left: 20px;
+}
+
+/* Footer */
+footer {
+	margin-top: 40px;
+	text-align: center;
+}
+
+footer ul li {
+	margin-right: 10px;
+}
+footer ul li a {
+	color: #333;
+}
+
+footer img {
+	width: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+	/* Header */
+	.division {
+		width: 300px;
+		border-bottom: 5px solid #2d4767;
+	}
+
+	/* Tech-stack Aside Section */
+	.tech-stack {
+		width: 300px;
+		height: 550px;
+	}
+
+	.tech-stack img {
+		width: 60px;
+	}
+
+	/* Project Section  */
+	.projects {
+		width: 300px;
+		height: 600px;
+		padding: 10px 10px 10px;
+	}
+
+	.projects article {
+		margin: 20px 0 0px;
+	}
+	.projects article h4 {
+		color: rgb(95, 91, 91);
+	}
+
+	.projects article ul li {
+		margin-left: 20px;
+	}
+
+	/* Footer */
+	footer {
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	footer ul li {
+		margin-top: 30px;
+		display: block;
+	}
+
+	footer img {
+		width: 30px;
+	}
+}
+@media only screen and (max-width: 1022px) {
+	.col {
+		display: block;
+	}
+	.center {
+		margin: 0 auto;
+		text-align: center;
+	}
+	/* About-info Section */
+	.about-info {
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	header .about-info h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	header .about-info h2 {
+		font-size: 1rem;
+		padding: 10px 0 20px 0;
+	}
+	/* Getting to know Section */
+	.getting-to-know {
+		margin: 50px 0;
+	}
+
+	.h3-customize{
+		font-size: 1.5rem;
+	}
+}
